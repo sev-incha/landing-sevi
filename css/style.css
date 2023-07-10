@@ -17,11 +17,12 @@ section {
 }
 
  .logo{ 
-    width: 295px ;
+    width: calc(8.8vw + 182px) ;
     margin: 37px 864px 0 0;
 }
 
  .courseData{
+    margin-top:calc(6.3vw + 4px) ;
     margin: 85px 0 0 0;
 
     display: flex;
@@ -394,7 +395,7 @@ section {
     margin: 20px 240px 0 0;
 }
         
-@media (max-width: 1280px){
+/* @media (max-width: 1280px){
    body{
       margin: 0;
    }
@@ -587,9 +588,10 @@ section {
       margin: 20px 120px 0 0;
    }
 
-}
+} */
 
-@media(max-width: 400px){
+
+/* @media(max-width: 400px){
    body{
       margin: 0;
    }
@@ -788,4 +790,4 @@ section {
 
       margin: 10px 0 0 0;
    }
-}
+}  */
