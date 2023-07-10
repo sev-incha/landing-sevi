@@ -3,6 +3,14 @@ body{
     color: #222;
     margin: 0;
 }
+
+.screen1{
+   background-image: url(../img/html_css_js\ 1.png);
+   background-repeat: no-repeat;
+   background-position: top 20px right 20px;
+   background-size: 40vw;
+}
+
  section{
     padding: 0 121px  ;
  }
