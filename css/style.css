@@ -5,75 +5,70 @@ body{
 }
 
 section {
-    padding: 0 121px  ;
+    padding: 0 calc(10vw - 16px )  ;
 }
-
 
 .screen1{
    background-image: url(../img/html_css_js\ 1.png);
    background-repeat: no-repeat;
-   background-position: top 20px right 20px;
-   background-size: 40vw;
+   background-position: top calc(4.8vw + 59px) right calc(6vw - 20px);
+   background-size: calc(23.8vw + 89px);
 }
 
  .logo{ 
     width: calc(8.8vw + 182px) ;
-    margin: 37px 864px 0 0;
+    margin: calc(0.3vw + 41px) calc(0.804vw + -165px) 0 0;
 }
 
  .courseData{
-    margin-top:calc(6.3vw + 4px) ;
-    margin: 85px 0 0 0;
-
+    margin:calc(6.3vw + 4px) 0;
     display: flex;
-    gap: 30px 160px;
+    gap: calc(14.4vw - 24px);
     flex-wrap: wrap;
 
- }
-
- .courseData .titile{
-    font-size: 21px;
+    font-size: calc(0.5vw + 14px);
     line-height: 140%;
  }
+  
+.courseInfo{
+   min-width: 150px;
+}
 
  .courseData .value{
-    font-size: 21px;
-    line-height: 140%;
     font-weight: 700;
 }
 
  .zagalovok1{
     font-family: Chava;
-    font-size: 80px;
+    font-size: calc(4.2vw + 26px);
     line-height: 110%;
 
-    width: 778px;
     display: flex;
     flex-wrap: wrap;
    
-    margin: 76px 390px 0 0;
+    margin: calc(0.031vw + 36px)  calc(0.404 + -127px) 0 0;
  }
 
  .zaga1{
-    width: 930px;
-    height: 190px;
-    font-size: 27px;
+    width: calc(0.665vw + 78p.5x);
+    height: calc(0.066vw + 275px);
+    font-size: calc(1vw + 14px);
     font-weight: 300;
     line-height: 140%;
 
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: calc(0.11vw + 18.5px);
 
-    margin: 40px 229px  0 0;
+    margin: calc(0.022vw + 11px) calc(0.227vw + 61px)  0 0;
 }
 
  .cta{
     display: flex;
-    gap: 20px 30px;
+    gap: calc(0.011vw + 15.8px);
     flex-wrap: wrap;
 
-    margin:20px 0 0 0;
+    margin: 20px 0 0 0;
 }
 
  .primary{
