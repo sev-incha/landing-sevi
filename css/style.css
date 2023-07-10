@@ -1,0 +1,697 @@
+body{
+    font-family: 'TT Hoves';
+    color: #222;
+    margin: 0;
+}
+ section{
+    padding: 0 121px  ;
+ }
+
+ .logo{ 
+    width: 295px ;
+    margin: 37px 864px 0 0;
+}
+
+ .courseData{
+    margin: 85px 0 0 0;
+
+    display: flex;
+    gap: 30px 160px;
+    flex-wrap: wrap;
+
+ }
+
+ .courseData .titile{
+    font-size: 21px;
+    line-height: 140%;
+ }
+
+ .courseData .value{
+    font-size: 21px;
+    line-height: 140%;
+    font-weight: 700;
+}
+
+ .zagalovok1{
+    font-family: Chava;
+    font-size: 80px;
+    line-height: 110%;
+
+    width: 778px;
+    display: flex;
+    flex-wrap: wrap;
+   
+    margin: 76px 390px 0 0;
+ }
+
+ .zaga1{
+    width: 930px;
+    height: 190px;
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 140%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+    margin: 40px 229px  0 0;
+}
+
+ .cta{
+    display: flex;
+    gap: 20px 30px;
+    flex-wrap: wrap;
+
+    margin:20px 0 0 0;
+}
+
+ .primary{
+    width: 328px;
+    border-radius: 12px;
+    background: #6E3ABA;
+    color:#fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+ .secondary{
+    width: 328px;
+    border-radius: 12px;
+    background: #fff;
+    color:#6E3ABA;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 0;
+    border: 1px solid #6E3ABA;
+}
+
+ .zagalovok2{
+    display: flex;
+    width: 769px;
+    font-size: 58px;
+    font-weight: 500;
+    letter-spacing: 0.58px;
+
+    margin: 160px 0 0 0;
+ }
+
+ .punkt{
+    display: flex;
+    flex-direction: column;
+    line-height: 140%;
+    font-size: 27px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.punkt h4{
+    font-weight: 600;   
+ }
+
+.punkt p{
+    font-weight: 400;
+}
+
+.punkt1{
+    margin:90px 70px 0 0;
+}
+   
+#a1{
+    width: 287px;
+    height: 287px;
+    margin: -49px -38px -28px -39px;
+}
+
+.punkt1 h4{
+    width: 420px;
+    margin: 20px 100px 0 0;
+}
+
+.punkt1 p{
+    width: 450px;
+    margin: 20px 70px 0 0;
+}
+
+
+.punkt2{
+    margin: 51px 88px 0 0;
+}
+
+#a2{
+    width: 192px;
+    height: 192px;
+    margin: -5px -18px -13px 0;
+}
+
+.punkt2 h4{
+    width: 318px;
+    margin: 23px 0 20px ;
+
+}
+.punkt2 p{
+    width: 432px;
+}
+
+.punkt3{
+    margin: 90px 160px 0 0;
+}
+
+#a3{
+    width: 254px;
+    height: 254px;
+    margin: -31px -12px -13px -32px;
+}
+
+.punkt3 h4{
+    width: 369px;
+ }
+
+ .punkt3 p{
+    width: 450px;
+ }
+
+
+.punkt4{
+    margin-top:90px ;
+    margin-right: 163px;
+}
+
+#a4{
+    width: 238px;
+    height: 238px;
+    flex-shrink: 0;
+    margin: -29px -14px 1px ;
+   }
+
+ .punkt4 h4{ 
+    width: 434px;
+
+    margin: 11px  206px 0 0;
+}
+ 
+  .punkt4 p{
+    width: 477px;
+
+    margin-top: 20px 163px 0 0;
+  } 
+  
+.zagalovok3{
+    display: flex;
+    width: 1022px;
+    flex-direction: column;
+
+    font-size: 58px;
+    font-weight: 500;
+    letter-spacing: 0.58px;
+
+    margin: 160px 0 0;
+}
+
+.obucheniye{
+    display: flex;
+    gap: 30px 120px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.obucheniye1 h4{
+    font-size: 27px;
+    font-weight: 600;
+
+    margin: 90px 248px 0 0 ;
+}
+
+     
+.obucheniye1 p{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+
+    font-size: 27px;
+    line-height: 140%;
+
+    margin: 20px 120px 0 0;
+}
+
+
+.obucheniye2 h4{
+    display: flex;
+    width: 428px;
+    flex-direction: column;
+
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 140%;
+
+    margin: 90px 212px 0 0 ;
+}
+
+.obucheniye2 p{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+
+    font-size: 27px;
+    line-height: 140%;
+
+    margin: 20px 240px 0 0;
+}
+
+
+.obucheniye3 h4{
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 140%;
+
+    margin: 90px 284px 0 0 ;
+}
+
+.obucheniye3 p{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+
+    font-size: 27px;
+    line-height: 140%;
+
+    margin: 20px 120px 0 0;
+}
+
+.obucheniye4 h4{
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 140%;
+
+    margin: 52px 247px 0 0;
+}
+
+.obucheniye4 P{
+    display: flex;
+    width: 400px;  
+    flex-direction: column;
+
+    font-size: 27px;
+    line-height: 140%;
+
+    margin: 20px 240px 0 0;
+}
+        
+@media (max-width: 1280px){
+   body{
+      margin: 0;
+   }
+
+   .section{
+      padding: 0 121px;
+   }
+
+   .logo{
+      display: flex;
+      width: 295px;
+      height: 41px;
+      justify-content: center;
+      align-items: center;
+
+      margin: 37px 864px 0 0;
+   }
+ 
+   .zagalovok1{
+      display: flex;
+      width: 778px;
+      flex-direction: column;
+
+      font-family: Chava;
+      font-size: 80px;
+      line-height: 110%;
+
+      margin: 76px 390px 0 0;
+   }
+
+   .zaga1{
+      font-size: 27px;
+      font-weight: 300;
+      line-height: 140%;
+
+      margin: 40px 229px 0 0;
+   }
+
+   .zagalovok2{
+      display: flex;
+      width: 769px;
+      flex-direction: column;
+
+      font-size: 58px;
+      font-weight: 500;
+      letter-spacing: 0.58px;
+
+      margin: 160px 391px 0 0;
+   }
+
+   .punkt1 .punkt2 .punkt3 .punkt4{
+      display: inline-flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+   }
+
+   .punkt h4{
+      display: flex;
+      flex-direction: column;
+      font-size: 27px;
+      font-weight: 600;
+      line-height: 140%;
+   }
+
+   .punkt p{
+      display: flex;
+      flex-direction: column; 
+      font-size: 27px;
+      font-weight: 400;
+      line-height: 140%;
+
+   }
+
+   .punkt1 h4{
+      width: 420px;
+      
+      margin: 20px 100px 0 0;
+   }
+
+   .punkt1 p{
+     width: 450px;
+     
+     margin: 20px 70px 0 0 ;
+   }
+
+   .punkt3 h4{
+      width: 369px;
+
+      margin: 20px 271px 0 0;
+ }
+ 
+   .punkt2 h4{
+      width: 318px;
+
+      margin: 23px 202px 0 0;
+   }
+
+   .punkt2 p{
+      width: 432px;
+
+      margin: 20px 88px 0 0;
+   }
+
+   .punkt4 h4{
+      width: 434px;
+
+      margin: 11px 206px 0 0;
+   }
+
+   .punkt4 p{
+      width: 477px;
+
+      margin: 20px 163px 0 0;
+   }
+
+   .zagalovok3{
+      display: flex;
+      width: 1022px;
+      flex-direction: column;
+
+      font-size: 58px;
+      font-weight: 500;
+      letter-spacing: 0.58px;
+
+      margin: 160px 138px 0 0;
+
+   }
+
+   .obucheniye{
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+   }
+
+   .obucheniye1 .obucheniye2 .obucheniye3 .obucheniye4{
+      display: inline-flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+   }
+
+   .obucheniye h4{
+      font-size: 27px;
+      font-weight: 600;
+      line-height: 140%;
+   }
+
+   .obucheniye p{
+      display: flex;
+      width: 400px;
+      flex-direction: column;
+
+      font-size: 27px;
+      font-weight: 400;
+      line-height: 140%;
+   }
+
+   .obucheniye1 h4{
+      margin: 90px 248px 0 0;
+   }
+
+   .obucheniye1 p{
+       margin:20px 120px 0 0 ;
+   }
+
+   .obucheniye2 h4{
+      width: 428px;
+
+      margin: 90px 212px 0 0;
+   }
+
+   .obucheniye2 p{
+      margin: 20px 240px 0 0;
+   }
+
+   .obucheniye3 h4{
+      margin: 90px 284px 0 0;
+   }
+
+   .obucheniye3 p{
+      margin: 20px 120px 0 0;
+   }
+
+   .obucheniye4 h4{
+      margin: 52px 247px 0 0;
+   }
+
+   .obucheniye4 p {
+      margin: 20px 120px 0 0;
+   }
+
+}
+
+@media(max-width: 400px){
+   body{
+      margin: 0;
+   }
+
+   section{
+      padding:0 24px ;
+   }
+
+   .logo{
+      display: flex;
+      width: 215.135px;
+      height: 30px;
+
+      margin: 40px 136px 0 0 ;
+   }
+
+  
+   
+   .zagalovok1{
+      display: flex;
+      width: 333px;
+      flex-direction: column;
+      align-items: center;
+
+      font-size: 42px;
+      line-height: 110%;
+
+      margin: 48px 0 0 0;
+   }
+
+   .zaga1{
+      display: flex;
+      width: 328px;
+      flex-direction: column;
+
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 140%;
+
+      margin: 20px 0 0 0 ;
+   }
+
+   .zagalovok2{
+      display: flex;
+      width: 328px;
+      flex-direction: column;
+
+      font-size: 34px;
+      font-weight: 500;
+
+      margin: 60px 0 0 0;
+   }
+
+   .punkt{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction:row ;
+   }
+
+   .punkt1 .punkt2 .punkt3 .punkt4{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+
+      margin: 40px 0 0 0;
+   }
+ 
+   #a1{
+      width: 230px;
+      height: 230px;
+
+      margin: -25px -13px -25px -37px; 
+   }
+
+   .punkt h4{
+      display: flex;
+      width: 328px;
+      flex-direction: column;
+
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 140%;
+   }
+   
+   .punkt p{
+      display: flex;
+      width: 328px;
+      flex-direction: column;
+
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 140%;
+   }
+
+   .punkt1 h4{
+       margin: 10px 0 0 0;
+   }
+
+   
+   
+   .punkt1 p{
+      margin: 20px 0 40px;
+   }
+
+   #a3{
+      width: 207px;
+      height: 207px;
+
+      margin: -27px -19px 0 -8px;
+   }
+
+   .punkt3 h4{
+      margin: 10px 0;
+   }
+
+   .punkt3 p{
+      margin: 10px 0 0 0;
+   }
+
+   #a2{
+      width: 175px;
+      height: 175px;
+
+      margin: 5px 5px 0 0;
+   }
+
+   .punkt2 h4{
+      margin: 10px 0 0 0;
+   }
+
+   .punkt2 p{
+       margin: 10px 0 0 0 ;
+   }
+
+   #a4{
+      width: 195px;
+      height: 195px;
+
+      margin: -15px -8px 0 -7px;
+   }
+
+   .punkt4 h4{
+      margin: 10px 0 0 0;
+   }
+
+   .punkt4 p{
+       margin: 10px 0 0 0;
+   }
+
+   .zagalovok3{
+      display: flex;
+      width: 328px;
+      flex-direction: column;
+
+      font-size: 34px;
+      font-weight: 500;
+      letter-spacing: 0.34px;
+
+      margin: 60px 0 0 0;
+
+   }
+
+   .obucheniye{
+      flex-wrap: nowrap;
+      flex-direction: column;
+   }
+
+   .obucheniye1 .obucheniye2 .obucheniye3 .obucheniye4{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+   }
+
+   .obucheniye h4{
+      display: flex;
+      width: 328px;
+      flex-direction: column;
+
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 140%;
+
+      margin: 30px 0 0 0;
+   }
+
+   .obucheniye p{
+      display: flex;
+      width: 328px;
+      flex-direction: column;
+
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 140%;
+
+      margin: 10px 0 0 0;
+   }
+}
