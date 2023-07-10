@@ -4,16 +4,17 @@ body{
     margin: 0;
 }
 
+section {
+    padding: 0 121px  ;
+}
+
+
 .screen1{
    background-image: url(../img/html_css_js\ 1.png);
    background-repeat: no-repeat;
    background-position: top 20px right 20px;
    background-size: 40vw;
 }
-
- section{
-    padding: 0 121px  ;
- }
 
  .logo{ 
     width: 295px ;
@@ -195,22 +196,103 @@ body{
     margin: -29px -14px 1px ;
    }
 
- .punkt4 h4{ 
+.punkt4 h4{ 
     width: 434px;
 
     margin: 11px  206px 0 0;
 }
  
-  .punkt4 p{
+.punkt4 p{
     width: 477px;
 
-    margin-top: 20px 163px 0 0;
-  } 
+    margin: 20px 163px 0 0;
+} 
 
-  .screen3{
+.screen3{
    background-color: #6E3ABA;
-  }
+   margin: 160px 0 160px 0;
+   padding: 0 121px 0  ;
+   height: 623px;
+}
+
+.zagalovok4{
+    color: var(--typo-white, #FFF);
+    font-size: 52px;
+    font-weight: 700;
+    letter-spacing: 1.56px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 80px  0 0;
+}
+
+.time{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.time h1{
+   color: #2F1D4E;
+   font-family: Chava;
+   font-size: 174px;
+   font-weight: 400;
+   line-height: 107.5%;
+   margin: 0;
+}
+
+
+.time h4{
+   color: #2F1D4E;
+   text-align: center;
+   font-size: 27px;
+   font-weight: 500;
+   margin: 0;
+}
   
+.time1{
+   width: 251px;
+   height: 219px;
+
+   margin: 57px 90px 0 0;
+}
+
+.time2{
+   width: 251px;
+   height: 219px;
+
+   margin: 57px 80px 0 0;
+}
+
+.time3{
+   width: 251px;
+   height: 219px;
+
+   margin: 57px 0 0 0;
+}
+
+.cta3{
+   display: flex;
+   align-items: flex-start;
+   width: 328px;
+   margin: 57px 355px 88px ;
+  
+   gap: 10px;
+   border-radius: 12px;
+   background: #FFF;
+
+}
+
+.cta3 div{ 
+   padding: 20px 0px;
+   display: flex;
+   flex-direction: column;
+   flex: 1 0 0;
+   color: #6E3ABA;
+   text-align: center;
+   font-size: 18px;
+   font-weight: 500;
+}
+
 .zagalovok3{
     display: flex;
     width: 1022px;
