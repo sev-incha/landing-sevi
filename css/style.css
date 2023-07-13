@@ -96,29 +96,44 @@ section {
 
  .zagalovok2{
     display: flex;
-    width: 769px;
-    font-size: 58px;
+    flex-direction: column;
+    width: calc(48.7vw + 145px);
+    font-size: calc(2.7vw + 24px);
     font-weight: 500;
     letter-spacing: 0.58px;
 
-    margin: 160px 0 0 0;
+    margin: calc(11vw + 18.5px) calc(40.6vw + -123px) 0 0;
  }
 
  .punkt{
-    display: flex;
-    flex-direction: column;
-    line-height: 140%;
-    font-size: 27px;
-    flex-wrap: nowrap;
-    flex-direction: row;
-}
-
-.punkt h4{
-    font-weight: 600;   
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   
  }
 
-.punkt p{
-    font-weight: 400;
+ .punkt1 .punkt2 .punkt3 .punkt4{
+   display: inline-flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 10px;
+ }
+
+ .punkt h4 { 
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    line-height: 140%;
+    font-size: calc(1vw + 14px);
+   
+}
+
+.punkt p { 
+   display: flex;
+   flex-direction: column;
+   font-weight: 400;
+   line-height: 140%;
+   font-size: calc(1vw + 14px);
 }
 
 .punkt1{
@@ -206,20 +221,22 @@ section {
 
 .screen3{
    background-color: #6E3ABA;
-   margin: 160px 0 160px 0;
-   padding: 0 121px 0  ;
-   height: 623px;
+   margin: calc(11vw + 18px) 0 ;
+   padding: 0 calc(10vw - 16px ) 0;
+   height: calc( 31.3vw + 222px);
 }
 
 .zagalovok4{
     color: var(--typo-white, #FFF);
-    font-size: 52px;
+    /* width: calc(38.2vw + 186px);
+    height: calc(2.1vw + 88px); */
+    font-size: calc(2vw + 26px);
     font-weight: 700;
-    letter-spacing: 1.56px;
+    letter-spacing: calc(0.1vw + 0.315px);
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 80px  0 0;
+    padding:  calc(4.4vw + 23px) 0  0 ;
 }
 
 .time{
@@ -230,7 +247,7 @@ section {
 .time h1{
    color: #2F1D4E;
    font-family: Chava;
-   font-size: 174px;
+   font-size: calc(12.6vw + 12.7px);
    font-weight: 400;
    line-height: 107.5%;
    margin: 0;
@@ -240,37 +257,37 @@ section {
 .time h4{
    color: #2F1D4E;
    text-align: center;
-   font-size: 27px;
+   font-size: calc(1.9vw + 3px);
    font-weight: 500;
    margin: 0;
 }
   
 .time1{
-   width: 251px;
-   height: 219px;
+   width: calc(18.1vw + 19px);
+   height: calc(13.4vw + 16px);
 
-   margin: 57px 90px 0 0;
+   margin: calc(4.1vw + 4.6px) calc(6.4vw + 8px) 0 0;
 }
 
 .time2{
-   width: 251px;
-   height: 219px;
+   width: calc(18.1vw + 19px);
+   height: calc(13.4vw + 16px);
 
-   margin: 57px 80px 0 0;
+   margin: calc(4.1vw + 4.6px) calc(5.6vw + 7.8px) 0 0;
 }
 
 .time3{
-   width: 251px;
-   height: 219px;
+   width: calc(18.1vw + 19px);
+   height: calc(13.4vw + 16px);
 
-   margin: 57px 0 0 0;
+   margin: calc(4.1vw + 4.6px) 0 0 0;
 }
 
 .cta3{
    display: flex;
    align-items: flex-start;
    width: 328px;
-   margin: 57px 355px 88px ;
+   margin: calc(6.3vw + 8.3px) calc(36.7vw + -114px) calc(5.2vw + 21.5px) ;
   
    gap: 10px;
    border-radius: 12px;
@@ -389,7 +406,92 @@ section {
 
     margin: 20px 240px 0 0;
 }
-        
+
+.screen4{
+   margin: calc(11vw + 18.5px) 0  ;
+   height: ;
+}
+
+.screen4 h2{
+   font-size: calc(2.65vw + 24px);
+   font-weight: 500;
+   text-transform: uppercase;
+   margin: 0;
+}
+
+.container{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 51px;
+}
+
+.lift-box img{
+   width: calc(7.7vw + 300px);
+   height: calc(10.8vw + 423.3px);
+
+   margin: calc(5.5vw + 19.2px) 0 0 ;
+}
+
+.right-top h3{
+   display: flex;
+   flex-direction: column;
+   width:calc(24.9vw + 247.7px);
+   height: auto;
+   font-size: calc(2.7vw + 24px);
+   font-weight: 700;
+   line-height: 120%;
+
+   margin: calc(8.7vw + -12.7px) 0 0 0;
+}
+
+.right-top p{
+   display: flex;
+   flex-direction: column;
+   width: calc(26.3vw + 229.3px);
+   height: auto;
+   font-size: calc(1vw + 14px);
+   line-height: 140%;
+   max-width: 560px;
+}
+
+.right-card p{
+   width: calc(10.4vw + 117px);
+   font-size: calc(0.6vw + 14px);
+   font-weight: 400;
+   line-height: 140%;
+}
+
+.right-cards {
+   display: flex;
+   flex-direction: column;
+   display: grid;
+   grid-template-areas: "card1 card2"
+                        "card3 card4";
+}
+
+.right-card:nth-child(1){
+   grid-area: card1;
+}
+
+.right-card:nth-child(2){
+   grid-area: card2;
+}
+
+.right-card:nth-child(3){
+   grid-area: card3;
+}
+
+.right-card:nth-child(4){
+   grid-area: card4;
+}
+
+.right-card p{
+   margin: 0;
+   font-size: 21px;
+   line-height: 140%;
+   max-width: 250px;
+}
+
 /* @media (max-width: 1280px){
    body{
       margin: 0;
