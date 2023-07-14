@@ -5,7 +5,12 @@ body{
 }
 
 section {
-    padding: 0 calc(10vw - 16px )  ;
+    padding: 0 calc(10vw - 16px);
+    margin-top: calc(11vw + 18px);
+}
+
+section:last-child{
+   margin-top: 0;
 }
 
 .screen1{
@@ -102,7 +107,7 @@ section {
     font-weight: 500;
     letter-spacing: 0.58px;
 
-    margin: calc(11vw + 18.5px) calc(40.6vw + -123px) 0 0;
+    margin: 0 calc(40.6vw + -123px) 0 0;
  }
 
  .punkt{
@@ -221,7 +226,6 @@ section {
 
 .screen3{
    background-color: #6E3ABA;
-   margin: calc(11vw + 18px) 0 ;
    padding: 0 calc(10vw - 16px ) 0;
    height: calc( 31.3vw + 222px);
 }
@@ -407,9 +411,7 @@ section {
     margin: 20px 240px 0 0;
 }
 
-.screen4{
-   margin: calc(11vw + 18.5px) 0  ;
-}
+
 
 .screen4 h2{
    font-size: calc(2.65vw + 24px);
@@ -491,10 +493,6 @@ section {
    max-width: 250px;
 }
 
-.screen6{
-   margin-top: 160px;
-}
-
 .border h2{
    display: flex;
    flex-direction: column;
@@ -511,6 +509,16 @@ section {
 .border{
    border: 2px solid black;
    padding: calc(2.6vw + 6px) calc(4.9vw + 2px);
+   margin-bottom: 30px;
+   position: relative;
+}
+
+#corner{
+   position: absolute;
+   top: -4px;
+   right: -4px;
+   width:100px;
+
 }
 
 .lesssons{
@@ -542,50 +550,161 @@ section {
    margin: 0 auto;
 }
 
+.desktop{
+   display: block;
+}
+
+.mobile{
+   display: none;
+}
+
 
 
 .screen7{
    padding:  0 calc(10vw - 16px ) ;
-   margin: calc(11vw + 18.5px) 0 ;
 }
 
 .screen7 img{
    width: calc(11.3vw + 285px);
    height: calc(7.8vw + 199.5px);
-   flex-shrink: 0;
+   margin: calc(-0.8vw + 23px) calc(2.1vw + -7.8px);
 }
 
 
 .screen7 h2{
-   /* display: flex;
+   display: flex;
    flex-direction: column;
-   flex-shrink: 0; */
    width: calc(27.6vw + 224.4px);
    font-size: calc(2.7vw + 24px);
    font-weight: 500;
-   letter-spacing: 0.58px;
    text-transform: uppercase;
+
+   margin: 0;
 }
 
 .screen7 p{
-   /* display: flex;
+   display: flex;
    flex-direction: column;
-   flex-shrink: 0; */
    width: calc(20.6vw + 250.9px);
    font-size: calc(1vw + 14.2px);
    font-weight: 400;
    line-height: 140%;
+   margin: 20px 0;
 
+}
+
+.diplom12{
+   display: flex;
+   flex-direction: column;
 }
 
 .diplom{
    display: flex;
-   flex-direction: column;
-   display: grid;
-   grid-template-areas:"diplom1"
-                  
+   flex-wrap: nowrap;                 
 }
 
+.desktop2{
+   display: block;
+}
+
+.mobile2{
+   display: none;
+}
+
+.screen8 h2{
+   display: flex;
+   flex-direction: column;
+   width: calc(44.3vw + 161.8px);
+   font-size: calc(2.7vw + 24px);
+   font-weight: 500;
+   letter-spacing: 0.34px;
+   text-transform: uppercase;
+}
+
+.screen8 p {
+   display: flex;
+   flex-direction: column;
+   width: calc(60.6vw + 101px);
+   font-size: calc(1vw + 14.2px);
+   font-weight: 400;
+   line-height: 140%;
+}
+
+.screen8 img {
+   width: calc(81.4vw + 22.6px) ;
+   height: calc(23.6vw + 7.3px);
+}
+
+.screen9 h2{
+   display: flex;
+   flex-direction: column;
+   width: calc(55.2vw + 121px);
+   font-size: calc(2.2vw + 25.7px);
+   font-weight: 500;
+   letter-spacing: 0.58px;
+   text-transform: uppercase;
+
+   margin: 0;
+}
+
+.opisaniy1{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.opisaniy{
+   margin: calc(7.7vw + -9px) 0 0;
+}
+
+.opisaniy h5{
+   width:calc(21.2vw + 248.4px) ;
+   gap: calc(0.6vw + 18px);
+   display: flex;
+   flex-direction: column;
+   font-size: calc(0.3px + 16.7px);
+   line-height: 140%;
+   font-weight: 400; 
+}
+
+.opisaniy1 img{
+   width: calc(19.1vw + 334.3px);
+   height: calc(11.7vw + 204px);
+
+   margin: calc(1.1vw + 16px) 0 0 ;
+}
+
+
+
+
+@media(max-width: 1280px){
+
+}
+
+@media(max-width: 600px){
+
+
+
+   .desktop{
+      display: none;
+   }
+
+   .mobile{
+      display: block;
+   }
+
+   .lesson:last-child{
+      border:0;
+      padding-bottom: 0;
+   }
+
+   .lesssons{
+      margin-bottom: 24px ;
+   }
+}
+
+@media(max-width: 375px){
+
+}
 
 
 
