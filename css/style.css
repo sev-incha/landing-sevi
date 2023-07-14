@@ -409,7 +409,6 @@ section {
 
 .screen4{
    margin: calc(11vw + 18.5px) 0  ;
-   height: ;
 }
 
 .screen4 h2{
@@ -491,6 +490,105 @@ section {
    line-height: 140%;
    max-width: 250px;
 }
+
+.screen6{
+   margin-top: 160px;
+}
+
+.border h2{
+   display: flex;
+   flex-direction: column;
+   flex-shrink: 0;
+   width: calc(40.7vw + 89.5px );
+   font-size: calc(2.7vw + 24px);
+   font-weight: 500;
+   letter-spacing: 0.34px;
+   text-transform: uppercase;
+
+   margin:calc(1.7vw + 17px) 0;
+}
+
+.border{
+   border: 2px solid black;
+   padding: calc(2.6vw + 6px) calc(4.9vw + 2px);
+}
+
+.lesssons{
+   margin-bottom: 34px;
+}
+
+.lesson {
+   display: flex;
+   flex-direction: column;
+   width: calc(71.6vw + 11.4px);
+   font-size: calc(0.6vw + 14px);
+   gap: 24px;
+   font-weight: 400;
+   line-height: 140%;
+   border-bottom: 1px solid #a1a1a1 ;
+
+   padding: 24px 0;
+}
+
+.primary2 {
+   width: 328px;
+   border-radius: 12px;
+   background: #6E3ABA;
+   color:#fff;
+   text-align: center;
+   font-size: 18px;
+   font-weight: 500;
+   padding: 20px 0;
+   margin: 0 auto;
+}
+
+
+
+.screen7{
+   padding:  0 calc(10vw - 16px ) ;
+   margin: calc(11vw + 18.5px) 0 ;
+}
+
+.screen7 img{
+   width: calc(11.3vw + 285px);
+   height: calc(7.8vw + 199.5px);
+   flex-shrink: 0;
+}
+
+
+.screen7 h2{
+   /* display: flex;
+   flex-direction: column;
+   flex-shrink: 0; */
+   width: calc(27.6vw + 224.4px);
+   font-size: calc(2.7vw + 24px);
+   font-weight: 500;
+   letter-spacing: 0.58px;
+   text-transform: uppercase;
+}
+
+.screen7 p{
+   /* display: flex;
+   flex-direction: column;
+   flex-shrink: 0; */
+   width: calc(20.6vw + 250.9px);
+   font-size: calc(1vw + 14.2px);
+   font-weight: 400;
+   line-height: 140%;
+
+}
+
+.diplom{
+   display: flex;
+   flex-direction: column;
+   display: grid;
+   grid-template-areas:"diplom1"
+                  
+}
+
+
+
+
 
 /* @media (max-width: 1280px){
    body{
