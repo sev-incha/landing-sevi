@@ -51,7 +51,7 @@ section:first-child{
     display: flex;
     flex-wrap: wrap;
    
-    margin: calc(0.031vw + 36px)  calc(0.404 + -127px) 0 0;
+    margin: calc(0.031vw + 36px)  calc(0.404vw + -127px) 0 0;
  }
 
  .zaga1{
@@ -322,111 +322,42 @@ section:first-child{
 }
 
 .zagalovok3{
-    display: flex;
-    flex-direction: column;
-    width: calc(76.7vw + 40.4px);
-
     font-size: calc(2.7vw + 24px);
     font-weight: 500;
     letter-spacing: calc(0vw + 0.241px);
-
-    margin: calc(10.7vw + 22.8px) 0 0;
+    margin: 0 0 calc(7.7vw - 9xp);
 }
+
+.description {
+   margin-bottom: calc(11vw + 18.6px);
+}
+
 
 .obucheniye{
     display: flex;
-    gap: 30px 120px;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: calc(9.9vw - 7.3px);
+    margin-bottom: calc(9.9vw - 7.3px);
 }
 
-.obucheniye1 .obucheniye2 .obucheniye3 .obucheniye4{
-   width: auto;
-   height: auto;
+.obucheniye:last-child{
+   margin: 0;
 }
 
-.obucheniye1 h4{
-    font-size: calc(1vw + 14.3px);
-    font-weight: 600;
-
-    margin:calc(7.7vw + -9px) 0 0 0 ;
+.obucheniye__text{
+   flex: 1 1 50%;
 }
 
-     
-.obucheniye1 p{
-    display: flex;
-    width: calc(8vw + 298px);
-    flex-direction: column;
-
-    font-size: calc(1vw + 14.3px);
-    line-height: 140%;
-
-    margin: calc(1.1vw + 6px) 0 0 0;
-}
-
-
-.obucheniye2 h4{
-    display: flex;
-    width: calc(11vw + 286.6px);
-    flex-direction: column;
-
-    font-size: calc(1vw + 14.3px);
-    font-weight: 600;
-    line-height: 140%;
-
-    margin: calc(6.6vw + 5.1px) 0 0 0;
-}
-
-.obucheniye2 p{
-    display: flex;
-    width: calc(8vw + 298.2px);
-    flex-direction: column;
-
-    font-size: calc(1vw + 14.3px);
-    line-height: 140%;
-
-    margin: calc(1.1vw + 6px) 0 0 0;
-}
-
-
-.obucheniye3 h4{
-    font-size: calc(1vw + 14.3px);
-    font-weight: 600;
-    line-height: 140%;
-
-    margin: calc(6.6vw + 5.1px) 0 0 0 ;
-}
-
-.obucheniye3 p{
-    display: flex;
-    width: calc(8vw + 298.2px);
-    flex-direction: column;
-
-    font-size: calc(1vw + 14.3px);
-    line-height: 140%;
-
-    margin:  calc(1.1vw + 6px) 0 0 0;
-}
-
-.obucheniye4 h4{
-    font-size:calc(1vw + 14.3px) ;
-    font-weight: 600;
-    line-height: 140%;
-
-    margin:calc(6.6vw + 5.1px)  0 0 0;
-}
-
-.obucheniye4 P{
-    display: flex;
-    width: calc(8vw + 298.2px);  
-    flex-direction: column;
-
-    font-size: calc(1vw + 14.3px);
-    line-height: 140%;
-
-    margin:  calc(1.1vw + 6px)0 0 0;
-}
-
-
+.obucheniye__text h4 {
+   margin-bottom: calc(1.1vw + 5.9px);
+   font-size: calc(1vw + 14.3px);
+   font-weight: 600;
+ }
+ 
+ .obucheniye__text p {
+   font-size: calc(1vw + 14.3px);
+   line-height: 140%;
+ }
 
 .screen4 h2{
    font-size: calc(2.65vw + 24px);
@@ -533,7 +464,7 @@ section:first-child{
    position: absolute;
    top: -4px;
    right: -4px;
-   width:100px;
+   width: calc(5.5vw + 29.3px)
 
 }
 
@@ -619,13 +550,6 @@ section:first-child{
    flex-wrap: nowrap;                 
 }
 
-.desk{
-   display: block;
-}
-
-.mobi{
-   display: none;
-}
 
 
 .screen8 h2{
@@ -669,6 +593,7 @@ section:first-child{
 .opisaniy1{
    display: flex;
    flex-wrap: wrap;
+   gap: 0;
 }
 
 .opisaniy{
@@ -680,7 +605,7 @@ section:first-child{
    gap: calc(0.6vw + 18px);
    display: flex;
    flex-direction: column;
-   font-size: calc(0.3px + 16.7px);
+   font-size: calc(0.3vw + 16.7px);
    line-height: 140%;
    font-weight: 400; 
 }
@@ -689,7 +614,7 @@ section:first-child{
    width: calc(19.1vw + 334.3px);
    height: calc(11.7vw + 204px);
 
-   margin: calc(1.1vw + 16px) 0 0 ;
+   margin: calc(1.1vw + 16px) calc(1.7vw + -21.2px) 0 ;
 }
 
 .screen12 h2{
@@ -780,27 +705,16 @@ section:first-child{
 }
 
 
-
-
-@media(max-width: 1280px){
-
-}
-
 @media(max-width: 600px){
+
+   .obucheniye{
+      flex-wrap: wrap;
+   }
 
    .punkt{
       display: flex;
       flex-wrap: wrap;
    }
-
-   .desk{
-      display: none;
-   }
-
-   .mobi{ 
-      display: block;
-   }
-
 
 
    .desktop{
@@ -819,10 +733,6 @@ section:first-child{
    .lesssons{
       margin-bottom: 24px ;
    }
-}
-
-@media(max-width: 375px){
-
 }
 
 
